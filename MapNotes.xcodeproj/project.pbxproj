@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		777CEBAB159D44EC0049F109 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777CEBAA159D44EC0049F109 /* UIKit.framework */; };
+		777CEBAD159D44EC0049F109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777CEBAC159D44EC0049F109 /* Foundation.framework */; };
+		777CEBAF159D44EC0049F109 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777CEBAE159D44EC0049F109 /* CoreGraphics.framework */; };
+		777CEBB5159D44EC0049F109 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 777CEBB3159D44EC0049F109 /* InfoPlist.strings */; };
+		777CEBB7159D44EC0049F109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 777CEBB6159D44EC0049F109 /* main.m */; };
+		777CEBBB159D44EC0049F109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 777CEBBA159D44EC0049F109 /* AppDelegate.m */; };
+		777CEBBE159D44EC0049F109 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777CEBBD159D44EC0049F109 /* MainViewController.m */; };
+		777CEBC1159D44EC0049F109 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777CEBC0159D44EC0049F109 /* FlipsideViewController.m */; };
+		777CEBC4159D44EC0049F109 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777CEBC2159D44EC0049F109 /* MainViewController.xib */; };
+		777CEBC7159D44EC0049F109 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777CEBC5159D44EC0049F109 /* FlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		777CEBA6159D44EC0049F109 /* MapNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777CEBAA159D44EC0049F109 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		777CEBAC159D44EC0049F109 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		777CEBAE159D44EC0049F109 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		777CEBB2159D44EC0049F109 /* MapNotes-Info.plist */ = {isa = PBXFileReference; path = "MapNotes-Info.plist"; sourceTree = "<group>"; };
+		777CEBB4159D44EC0049F109 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		777CEBB6159D44EC0049F109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		777CEBB8159D44EC0049F109 /* MapNotes-Prefix.pch */ = {isa = PBXFileReference; path = "MapNotes-Prefix.pch"; sourceTree = "<group>"; };
+		777CEBB9159D44EC0049F109 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		777CEBBA159D44EC0049F109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		777CEBBC159D44EC0049F109 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		777CEBBD159D44EC0049F109 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		777CEBBF159D44EC0049F109 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		777CEBC0159D44EC0049F109 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		777CEBC3159D44EC0049F109 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		777CEBC6159D44EC0049F109 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777CEBA3159D44EC0049F109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777CEBAB159D44EC0049F109 /* UIKit.framework in Frameworks */,
+				777CEBAD159D44EC0049F109 /* Foundation.framework in Frameworks */,
+				777CEBAF159D44EC0049F109 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777CEB9B159D44EC0049F109 = {
+			isa = PBXGroup;
+			children = (
+				777CEBB0159D44EC0049F109 /* MapNotes */,
+				777CEBA9159D44EC0049F109 /* Frameworks */,
+				777CEBA7159D44EC0049F109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		777CEBA7159D44EC0049F109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777CEBA6159D44EC0049F109 /* MapNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777CEBA9159D44EC0049F109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				777CEBAA159D44EC0049F109 /* UIKit.framework */,
+				777CEBAC159D44EC0049F109 /* Foundation.framework */,
+				777CEBAE159D44EC0049F109 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		777CEBB0159D44EC0049F109 /* MapNotes */ = {
+			isa = PBXGroup;
+			children = (
+				777CEBB9159D44EC0049F109 /* AppDelegate.h */,
+				777CEBBA159D44EC0049F109 /* AppDelegate.m */,
+				777CEBBC159D44EC0049F109 /* MainViewController.h */,
+				777CEBBD159D44EC0049F109 /* MainViewController.m */,
+				777CEBBF159D44EC0049F109 /* FlipsideViewController.h */,
+				777CEBC0159D44EC0049F109 /* FlipsideViewController.m */,
+				777CEBC2159D44EC0049F109 /* MainViewController.xib */,
+				777CEBC5159D44EC0049F109 /* FlipsideViewController.xib */,
+				777CEBB1159D44EC0049F109 /* Supporting Files */,
+			);
+			path = MapNotes;
+			sourceTree = "<group>";
+		};
+		777CEBB1159D44EC0049F109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777CEBB2159D44EC0049F109 /* MapNotes-Info.plist */,
+				777CEBB3159D44EC0049F109 /* InfoPlist.strings */,
+				777CEBB6159D44EC0049F109 /* main.m */,
+				777CEBB8159D44EC0049F109 /* MapNotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		777CEBA5159D44EC0049F109 /* MapNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777CEBCA159D44EC0049F109 /* Build configuration list for PBXNativeTarget "MapNotes" */;
+			buildPhases = (
+				777CEBA2159D44EC0049F109 /* Sources */,
+				777CEBA3159D44EC0049F109 /* Frameworks */,
+				777CEBA4159D44EC0049F109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapNotes;
+			productName = MapNotes;
+			productReference = 777CEBA6159D44EC0049F109 /* MapNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777CEB9D159D44EC0049F109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 777CEBA0159D44EC0049F109 /* Build configuration list for PBXProject "MapNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 777CEB9B159D44EC0049F109;
+			productRefGroup = 777CEBA7159D44EC0049F109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777CEBA5159D44EC0049F109 /* MapNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		777CEBA4159D44EC0049F109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777CEBB5159D44EC0049F109 /* InfoPlist.strings in Resources */,
+				777CEBC4159D44EC0049F109 /* MainViewController.xib in Resources */,
+				777CEBC7159D44EC0049F109 /* FlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777CEBA2159D44EC0049F109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777CEBB7159D44EC0049F109 /* main.m in Sources */,
+				777CEBBB159D44EC0049F109 /* AppDelegate.m in Sources */,
+				777CEBBE159D44EC0049F109 /* MainViewController.m in Sources */,
+				777CEBC1159D44EC0049F109 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		777CEBB3159D44EC0049F109 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777CEBB4159D44EC0049F109 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		777CEBC2159D44EC0049F109 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777CEBC3159D44EC0049F109 /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		777CEBC5159D44EC0049F109 /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777CEBC6159D44EC0049F109 /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		777CEBC8159D44EC0049F109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		777CEBC9159D44EC0049F109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		777CEBCB159D44EC0049F109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapNotes/MapNotes-Prefix.pch";
+				INFOPLIST_FILE = "MapNotes/MapNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		777CEBCC159D44EC0049F109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapNotes/MapNotes-Prefix.pch";
+				INFOPLIST_FILE = "MapNotes/MapNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		777CEBA0159D44EC0049F109 /* Build configuration list for PBXProject "MapNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777CEBC8159D44EC0049F109 /* Debug */,
+				777CEBC9159D44EC0049F109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777CEBCA159D44EC0049F109 /* Build configuration list for PBXNativeTarget "MapNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777CEBCB159D44EC0049F109 /* Debug */,
+				777CEBCC159D44EC0049F109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777CEB9D159D44EC0049F109 /* Project object */;
+}
