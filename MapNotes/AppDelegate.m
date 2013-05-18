@@ -9,17 +9,20 @@
 #import "AppDelegate.h"
 
 #import "MainViewController.h"
+#import "FlipsideViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize mainViewController = _mainViewController;
+@synthesize flipsideViewController = _flipsideViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    self.flipsideViewController = [[FlipsideViewController alloc] initWithNibName:@"FlipsideViewController" bundle:nil];
     self.window.rootViewController = self.mainViewController;
     [self.window makeKeyAndVisible];
     return YES;
@@ -39,6 +42,7 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
      */
+    NSLog(@"AppDelegate got applicationDidEnterBackground");
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -62,6 +66,13 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+    NSLog(@"AppDelegate got applicationWillTerminate");
+}
+
+-(NSString* ) saveFilePath
+{
+    NSArray* pathArray = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    return [[pathArray objectAtIndex:0] stringByAppendingPathComponent:@"AnnotationsData.plist"];
 }
 
 @end

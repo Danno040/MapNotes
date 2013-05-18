@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FlipsideViewController.h"
 
 @class MainViewController;
 
@@ -15,5 +16,8 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) MainViewController *mainViewController;
+@property (strong, nonatomic) FlipsideViewController *flipsideViewController;
+
+-(NSString*) saveFilePath;
 
 @end
