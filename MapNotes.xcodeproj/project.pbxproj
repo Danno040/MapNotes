@@ -21,6 +21,7 @@
 		7799FC3A17403FF900B1FAD9 /* NoteDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7799FC3917403FF900B1FAD9 /* NoteDetailViewController.xib */; };
 		7799FC40174042EF00B1FAD9 /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7799FC3F174042EF00B1FAD9 /* NoteDetailViewController.m */; };
 		77A402EE173EF1E600296A05 /* MapNoteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A402ED173EF1E600296A05 /* MapNoteAnnotation.m */; };
+		77EA7114175167E700FE8A80 /* test-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 77EA7113175167E700FE8A80 /* test-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		7799FC3F174042EF00B1FAD9 /* NoteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailViewController.m; sourceTree = "<group>"; };
 		77A402EC173EF1E600296A05 /* MapNoteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapNoteAnnotation.h; sourceTree = "<group>"; };
 		77A402ED173EF1E600296A05 /* MapNoteAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNoteAnnotation.m; sourceTree = "<group>"; };
+		77EA7113175167E700FE8A80 /* test-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		777CEBB0159D44EC0049F109 /* MapNotes */ = {
 			isa = PBXGroup;
 			children = (
+				77EA7113175167E700FE8A80 /* test-button.png */,
 				777CEBB9159D44EC0049F109 /* AppDelegate.h */,
 				777CEBBA159D44EC0049F109 /* AppDelegate.m */,
 				7799FC3D174042AF00B1FAD9 /* Models */,
@@ -201,6 +204,7 @@
 				777CEBC4159D44EC0049F109 /* MainViewController.xib in Resources */,
 				777CEBC7159D44EC0049F109 /* FlipsideViewController.xib in Resources */,
 				7799FC3A17403FF900B1FAD9 /* NoteDetailViewController.xib in Resources */,
+				77EA7114175167E700FE8A80 /* test-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
